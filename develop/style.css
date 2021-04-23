@@ -1,0 +1,38 @@
+header{
+  text-align: center;
+  background-color: turquoise;
+}
+
+
+.input-group-rounded .input-group-field {
+    border-radius: 5000px;
+    padding-left: 1rem;
+  }
+  
+  .input-group-rounded .input-group-button .button {
+    border-radius: 5000px;
+    font-size: 0.8rem;
+    position: relative;
+  }
+
+.weatherBlock{
+  display: inline-block;
+  text-align: center;
+  border-style: solid;
+}
+
+.search{
+  margin-left: 25px;
+  text-align: center;
+  list-style: none;
+}
+
+.searchTitle{
+  font-size: 30px;
+}
+
+.days{
+  
+}
+  
+  
