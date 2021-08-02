@@ -1,6 +1,7 @@
 header{
   text-align: center;
   background-color: turquoise;
+  font-size: 300%;
 }
 
 
@@ -14,25 +15,72 @@ header{
     font-size: 0.8rem;
     position: relative;
   }
+  .informationBlock{
+    display:inline-flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
 
 .weatherBlock{
   display: inline-block;
   text-align: center;
   border-style: solid;
+  padding: 40px;
+  position: relative;
 }
 
 .search{
   margin-left: 25px;
-  text-align: center;
+  text-align: left;
   list-style: none;
+  border-style: solid;
+  display:inline-block;
+  padding: 50px;
 }
 
 .searchTitle{
   font-size: 30px;
 }
 
-.days{
-  
+#searchCity{
+  margin-left: 20px;
 }
-  
+
+#searchBtn{
+  margin-top: 20px;
+  left: 80px;
+}
+
+.h3Days{
+  font-size: 150%;
+  margin-left: 25px;
+  justify-content: space-evenly;
+
+}
+
+.days{
+  margin-top: 25px;
+  justify-content: space-evenly;
+
+}
+
+.info{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+}
+
+.forecastSection{
+display: flex;
+flex-direction:row;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+margin-left: 20px;
+margin-top: 25px;
+}
+
   

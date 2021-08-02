@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./develop/reset.css">
     <link rel="stylesheet" href="./develop/style.css">
     <title>Weather Dashboard</title>
 </head>
@@ -11,6 +12,7 @@
     <header>
         <h1>Weather Dashboard</h1>
     </header>
+    <section class="informationBlock">
     <section class="search">
         <h2 class="searchTitle">Search for a City</h2>
         <div id="searchWeather" class="input-group input-group-rounded">
@@ -29,10 +31,27 @@
         <div>
             <p id="weatherInformation"></p>
         </div>
+    </section>
+
 
     </section>
+    <section>
+
+        <div>
+            <h3 id="historySection"></h3>
+            <input id="clearHistory" type="submit" class="button secondary" value="Delete Search">
+
+        </div>
+    </section>
     <section class="days">
-        <h3>5 Day Forecast</h3>
+        <h3 class="h3Days">5 Day Forecast</h3> <br>
+        <h3 class= "forecastSection" id="5forecast"></h3>
+        <div class="info">
+       <br> <img id= "5img" src="" alt="">
+       <div>
+           <p id="forecastInfo"></p>
+       </div>
+    </div>
     </section>
     
 
