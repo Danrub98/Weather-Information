@@ -81,7 +81,7 @@ var getCityInformation = function(city){
                     unOrderList.append(listItem2)
 
                     var listItem3 = document.createElement("li");
-                    listItem3.innerText = data.main.humidity + "%"
+                    listItem3.innerText = "Humidity " +  data.main.humidity + "%" 
                     unOrderList.append(listItem3)
                     weatherInformation.append(unOrderList);
 
@@ -132,7 +132,7 @@ var getCityInformation = function(city){
                     unOrderList.append(listItem2)
 
                     var listItem3 = document.createElement("li");
-                    listItem3.innerText = forecastDays.main.humidity + "%"
+                    listItem3.innerText = "Humidity " +  forecastDays.main.humidity + "%"
                     unOrderList.append(listItem3)
                     fiveForecast.append(unOrderList);
 
